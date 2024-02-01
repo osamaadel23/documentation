@@ -356,7 +356,7 @@ Explicit security checks can be performed by:
 * Checking who the current user is (``self.env.user``) and match them against
   specific models or records.
 * Checking that the current user has specific groups hard-coded to allow or deny
-  an operation (``self.env.user.has_group``).
+  an operation (``self.env.user._has_groups``).
 * Calling the ``check_access_rights(operation)`` method on a recordset, this
   verifies whether the current user has access to the model itself.
 * Calling ``check_access_rule(operations)`` on a non-empty recordset, this

@@ -72,10 +72,10 @@ a form view. For example:
     <form>
         <field name="description"/>
         <field name="line_ids">
-            <tree>
+            
                 <field name="field_1"/>
                 <field name="field_2"/>
-            </tree>
+            </list>
         </field>
     </form>
 
@@ -355,10 +355,10 @@ complete list):
 
 .. code-block:: xml
 
-    <tree decoration-success="is_partner==True">
+    <list decoration-success="is_partner==True">
         <field name="name"/>
         <field name="is_partner" invisible="1"/>
-    </tree>
+    </list>
 
 The records where ``is_partner`` is ``True`` will be displayed in green.
 

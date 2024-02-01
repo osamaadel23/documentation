@@ -622,7 +622,7 @@ The `debug` mode current value can be read in the :ref:`environment<frontend/fra
 
     .. code-block:: xml
 
-        <field name="fname" groups="base.group_no_one"/>
+        <field name="fname" technical-chm="1"/>
 
 .. seealso::
    - :ref:`Activate the debug mode <developer-mode>`
