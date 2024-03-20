@@ -349,6 +349,20 @@ You may generate the following payslips (ensure payslip status is **Done**) to v
      - $25200
      - $769.49 ($45400/59)
      - N/A
+   * - Mar (1 Day Annual Leave)
+     - 31
+     - $20324.33
+     - $0
+     - $20324.33
+     - $730.27 ($65724.33/90)
+     - $769.49
+   * - Apr (1 Day 80% Sick Leave)
+     - 30
+     - $20117.56
+     - $0
+     - -
+     - -
+     - $584.22 ($730.27*0.8)
 
 Here is an example demonstrating the 713 logic:
 
