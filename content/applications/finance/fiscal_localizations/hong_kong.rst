@@ -326,7 +326,6 @@ You may generate the following payslips (ensure payslip status is **Done**) to v
 
 .. list-table::
    :header-rows: 1
-   :stub-columns: 7
 
    * - Period
      - Days
